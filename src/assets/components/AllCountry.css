@@ -2,15 +2,23 @@
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 20px;
+}
+
+.country-section img {
+    width: 160px;
+    height: 110px;
+}
+.non-visited-bg{
     background: rgb(170, 165, 250);
     background: linear-gradient(90deg, rgba(170, 165, 250, 1) 0%, rgba(221, 221, 246, 1) 100%, rgba(193, 239, 249, 1) 100%);
 }
 
-.country-section h2 {
-    font-size: 30px;
-    color: crimson
+.visited-bg {
+    background: rgb(223, 248, 254);
+    background: linear-gradient(90deg, rgba(223, 248, 254, 1) 0%, rgba(118, 118, 246, 1) 93%, rgba(108, 107, 219, 1) 99%, rgba(170, 165, 250, 1) 100%);
 }
 
-.country-section img {
-    width: 120px;
+.country-section h2 {
+    font-size: 24px;
+    color: crimson
 }
